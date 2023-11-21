@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.masathailoginsignup.LoggedinController">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="223.0">
+         <children>
+            <ImageView fitHeight="400.0" fitWidth="230.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@DASHBOARD.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="400.0" prefWidth="403.0" style="-fx-background-color: #808080;">
+         <children>
+            <Label layoutX="26.0" layoutY="122.0" text="Create your citizenship here" textFill="#09094d">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="96.0" layoutY="331.0" text="Click" textFill="#100d40">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button fx:id="button_here" layoutX="124.0" layoutY="327.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="here" textFill="#1a117c" underline="true">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="13.0" />
+               </font>
+            </Button>
+            <Label layoutX="165.0" layoutY="332.0" text="to contineue  OR" textFill="#100d40">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button fx:id="button_logout" layoutX="158.0" layoutY="364.0" mnemonicParsing="false" style="-fx-background-color: #6577B3;" text="Logout" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="13.0" />
+               </font>
+            </Button>
+            <Label fx:id="label_welcome" layoutX="99.0" layoutY="81.0" text="Hello username" textFill="#09094d">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="24.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="176.0" fitWidth="309.0" layoutX="33.0" layoutY="156.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@importantNotice.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</HBox>
